@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index" ,
-    "pages/posters/posters"
+    "pages/posters/posters",
+    "pages/posters/posters-detail/posters-detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#b3d4db",

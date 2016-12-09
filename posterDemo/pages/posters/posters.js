@@ -23,5 +23,9 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  onPostTap:function(event){
+    var postId = event.currentTarget.dataset.postid;
+    wx.navigateTo({url: "./posters-detail/posters-detail"});
   }
 })

@@ -7,16 +7,18 @@ var local_data=[
         collection: 92,
         headImgSrc: "/images/post/crab.png",
         date: "Sep 20 2016",
-        avatar: "/images/avatar/4.png"
+        avatar: "/images/avatar/4.png",
+        postId:0
       },
       {
         title: "当我们在谈论经济学时，我们在谈论什么?",
         content: "引言在我跟学生课后交流时，以及我在知乎上阅读有关“经济”问题的论题时，经常会遇到这样的情况：...",
-        imgSrc: "/images/post/sls.jpg",
+        imgSrc: "/images/post/sls.png",
         reading: 62,
         collection: 92,
         date: "Nov 12 2016",
-        avatar: "/images/avatar/3.png"
+        avatar: "/images/avatar/3.png",
+        postId:1
       },
       {
         title: "比利·林恩的中场故事",
@@ -25,7 +27,8 @@ var local_data=[
         reading: 62,
         collection: 92,
         date: "Nov 20 2016",
-        avatar: "/images/avatar/1.png"
+        avatar: "/images/avatar/1.png",
+        postId:2
       },
       {
         title: "微信·小程序开发工具安装指南",
@@ -34,7 +37,8 @@ var local_data=[
         reading: 102,
         collection: 92,
         date: "Nov 20 2016",
-        avatar: "/images/avatar/5.png"
+        avatar: "/images/avatar/5.png",
+        postId:3
       },
       {
         title: "从视觉到触觉 这款VR手套能给你真实触感",
@@ -43,7 +47,8 @@ var local_data=[
         reading: 102,
         collection: 26,
         date: "Nov 20 2016",
-        avatar: "/images/avatar/3.png"
+        avatar: "/images/avatar/3.png",
+        postId:4
       },
       {
         title: "创维爱奇艺战略合作发布会",
@@ -52,7 +57,8 @@ var local_data=[
         reading: 102,
         collection: 26,
         date: "Nov 20 2016",
-        avatar: "/images/avatar/4.png"
+        avatar: "/images/avatar/4.png",
+        postId:5
       }
     ];
 module.exports = {
