@@ -1,14 +1,4 @@
-// pages/posters/posters.js
-Page({
-  data:{
-    likeImgPath:{
-      likeView:"../../images/icon/chat1.png",
-      likeCollection:"../../images/icon/view.png"
-    }
-  },
-  onLoad:function(options){
-    // 页面初始化 options为页面跳转所带来的参数
-    var poster_data=[
+var local_data=[
       {
         title: "又是蟹肥虾壮时",
         content: "菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，",
@@ -65,18 +55,6 @@ Page({
         avatar: "/images/avatar/4.png"
       }
     ];
-    this.setData({posterData:poster_data});
-  },
-  onReady:function(){
-    // 页面渲染完成
-  },
-  onShow:function(){
-    // 页面显示
-  },
-  onHide:function(){
-    // 页面隐藏
-  },
-  onUnload:function(){
-    // 页面关闭
-  }
-})
+module.exports = {
+    posterData:local_data
+}
