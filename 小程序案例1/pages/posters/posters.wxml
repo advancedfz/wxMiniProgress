@@ -1,0 +1,45 @@
+<!--pages/posters/posters.wxml-->
+<view>
+    <swiper class="swiper-container" indicator-dots="true" autoplay="true" interval="4000"  >
+        <swiper-item>
+            <image class="swiper-img" src="/images/wx.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image class="swiper-img" src="/images/vr.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image class="swiper-img" src="/images/iqiyi.png"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="poster-container">
+    <view class="poster-auto">
+        <image class="poster-auto-img" src="../../images/avatar/1.png"></image>
+        <text class="poster-auto-time">Nov 20 2016</text>
+    </view>
+    <text class="poster-title">又是蟹肥虾壮时</text>
+    <image class="poster-img" src="../../images/post/crab.png"></image>
+    <text class="poster-content">菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，</text>
+    <view class="poster-like-container">
+        <image class="poster-like-img" src="../../images/icon/chat1.png"></image>
+        <text class="poster-like-num">92</text>
+        <image class="poster-like-img" src="../../images/icon/view.png"></image>
+        <text class="poster-like-num">62</text>
+    </view>
+</view>
+
+<view class="poster-container">
+    <view class="poster-auto">
+        <image class="poster-auto-img" src="../../images/avatar/2.png"></image>
+        <text class="poster-auto-time">Nov 22 2016</text>
+    </view>
+    <text class="poster-title">比利·林恩的中场故事</text>
+    <image class="poster-img" src="../../images/post/bl.png"></image>
+    <text class="poster-content">一 “李安是一位绝不会重复自己的导演，本片将极富原创性李安众所瞩目的新片《比利林恩漫长的中场休息》，正式更名《半场无战事》。</text>
+    <view class="poster-like-container">
+        <image class="poster-like-img" src="../../images/icon/chat1.png"></image>
+        <text class="poster-like-num">97</text>
+        <image class="poster-like-img" src="../../images/icon/view.png"></image>
+        <text class="poster-like-num">42</text>
+    </view>
+</view>
