@@ -38,8 +38,25 @@ Page({
     // 页面关闭
   },
   onCollectedTap:function(event){
+    var that = this;
     //收藏页面
-    var postCollected = wx.getStorageSync('postCollected');
+    //var postCollected = wx.getStorageSync('postCollected');
+    //var collection = postCollected[this.data.currentPostId];
+    //切换取消收藏与取消收藏
+    
+    //this.showToast(collection,postCollected);
+    //this.showModal(collection,postCollected);
+
+    
+    //异步获取缓存数据
+    wx.getStorage({
+      key: 'postCollected',
+      success: function(res){
+        var postCollected = res.data;
+        var collection = postCollected[that.data.currentPostId];
+        that.showToast(collection,postCollected);
+      }
+    })
     var collection = postCollected[this.data.currentPostId];
     //切换取消收藏与取消收藏
     
