@@ -5,7 +5,7 @@
     "pages/posters/posters-detail/posters-detail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarBackgroundColor": "#405f80",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "小程序"
   }

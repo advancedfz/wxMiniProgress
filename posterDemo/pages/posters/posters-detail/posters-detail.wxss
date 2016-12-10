@@ -9,6 +9,14 @@
     height: 450rpx;
 }
 
+.music-img{
+    width:100rpx;
+    height: 100rpx;
+    position: absolute;
+    margin:20rpx 0 0 82%;
+    opacity: 0.8;
+}
+
 .auto-container{
     flex-direction: row;
     margin-top: 25rpx;
