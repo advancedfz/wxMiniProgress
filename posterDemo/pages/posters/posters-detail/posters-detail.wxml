@@ -1,6 +1,6 @@
 <view class ="detail-container">
-    <image class="head-img" src="{{posterData.headImgSrc}}"></image>
-    <image class="music-img" src="/images/music/music-start.png"></image>
+    <image class="head-img" src="{{isPlay ? posterData.music.coverImg : posterData.headImgSrc}}"></image>
+    <image class="music-img" catchtap="onMusicTap" src="{{isPlay ? '/images/music/music-stop.png' : '/images/music/music-start.png'}}"></image>
     <view class="auto-container">
         <image class="auto-img" src="{{posterData.avatar}}"></image>
         <text class = "auto-name">{{posterData.author}}</text>
